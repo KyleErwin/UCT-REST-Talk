@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "893d75ff-8902-4c74-b695-36254d2d893a",
+		"name": "OPEN CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Kyle\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://crudcrud.com/api/0068076092c94e3f9b0534fb37f8b422/people",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"0068076092c94e3f9b0534fb37f8b422",
+						"people"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve People",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://crudcrud.com/api/0068076092c94e3f9b0534fb37f8b422/people/",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"0068076092c94e3f9b0534fb37f8b422",
+						"people",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve Person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://crudcrud.com/api/0068076092c94e3f9b0534fb37f8b422/people/5f17ee709a729803e8b2bfa7",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"0068076092c94e3f9b0534fb37f8b422",
+						"people",
+						"5f17ee709a729803e8b2bfa7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Person",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Kyle Erwin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://crudcrud.com/api/0068076092c94e3f9b0534fb37f8b422/people/5f17ee709a729803e8b2bfa7",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"0068076092c94e3f9b0534fb37f8b422",
+						"people",
+						"5f17ee709a729803e8b2bfa7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Person",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://crudcrud.com/api/0068076092c94e3f9b0534fb37f8b422/people/5f180d0d9a729803e8b2bfac",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"0068076092c94e3f9b0534fb37f8b422",
+						"people",
+						"5f180d0d9a729803e8b2bfac"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
